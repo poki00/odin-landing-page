@@ -41,6 +41,7 @@ img {
     width: 200px;
     height: 200px;
     margin: 10px;
+    border-radius: 10px;
 }
 
 .left-one button {
@@ -67,4 +68,60 @@ img {
     display: flex;
     justify-content: space-between;
     margin: 10px;
+}
+
+/*section-two*/
+.title-two {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+}
+
+.box-two img {
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    border: 3px solid #3882F6;
+    transition-duration: 0.2s;
+}
+
+.box-two img:hover {
+    border: 3px solid gold;
+}
+
+/*section-two flex structure*/
+.row-two {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 50px;
+}
+
+.box-two {
+    max-width: 150px;
+    text-align: center;
+}
+
+/*section-three*/
+.section-three {
+    background-color: #E5E7EB;
+    padding: 80px 140px;
+}
+
+.quote-three {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+    margin: 0;
+
+}
+
+.name-three {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+    margin: 5px;
 }
